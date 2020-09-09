@@ -24,7 +24,6 @@ const ifPropHasWildCard = R.ifElse(
 
 const convertToPredicateFn = R.pipe(
   R.map(R.equals),
-  R.map(R.test),
   R.anyPass
 )
 
