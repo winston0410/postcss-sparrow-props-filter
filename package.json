@@ -8,6 +8,7 @@
     "dist/"
   ],
   "scripts": {
+    "prepublish": "npm run build",
     "test": "npx mocha --recursive './test/**/*.js' --require esm",
     "build": "NODE_ENV=production npx rollup -c;"
   },
