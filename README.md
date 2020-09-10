@@ -62,6 +62,8 @@ module.exports = {
 
 An array of properties that you want to match with. Use `*` as wildcard and select all properties.
 
+For example, `display` will match `display: block`.
+
 ### `options.inclusion` : Boolean
 
 True for including and False for excluding selectors listed in `options.props`.
