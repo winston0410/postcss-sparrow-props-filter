@@ -33,10 +33,12 @@
   "homepage": "https://github.com/winston0410/postcss-sparrow-prop-filter#readme",
   "dependencies": {
     "eslint-plugin-ramda": "^2.5.1",
-    "postcss": "^7.0.32",
     "postcss-sparrow": "^0.4.3",
     "sanctuary": "^3.1.0",
     "ramda": "^0.27.1"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
   },
   "devDependencies": {
     "@logux/eslint-config": "^40.0.4",
