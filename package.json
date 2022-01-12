@@ -34,7 +34,7 @@
   "dependencies": {
     "eslint-plugin-ramda": "^2.5.1",
     "postcss-sparrow": "^0.4.7",
-    "ramda": "^0.27.1",
+    "ramda": "^0.27.2",
     "sanctuary": "^3.1.0"
   },
   "peerDependencies": {
